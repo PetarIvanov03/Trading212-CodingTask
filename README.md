@@ -3,12 +3,9 @@
 ### Quick start
 
 1. Start MySQL (localhost:3306) and create a DB called `crypto_sim`.
-2. In the **TradingApp** folder run:
-
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-3. Visit **[http://localhost:8080/index.html](http://localhost:8080/index.html)**.
+2. Change password in application.settings -> spring.datasource.password=*your_password*.
+3. Run application.
+4. Visit **[http://localhost:8080/index.html](http://localhost:8080/index.html)**.
 
 * Live prices for the top‑20 coins stream from Kraken.
 * You trade with a virtual \$10 000 balance.
