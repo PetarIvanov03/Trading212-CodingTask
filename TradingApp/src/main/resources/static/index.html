@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Trading Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Crypto Trading Simulator</h1>
+<div id="balance">Balance: $0</div>
+<button id="reset">Reset Account</button>
+<h2>Prices</h2>
+<table id="prices">
+    <thead><tr><th>Symbol</th><th>Price</th><th>Amount</th><th>Action</th></tr></thead>
+    <tbody></tbody>
+</table>
+<h2>Holdings</h2>
+<table id="holdings">
+    <thead><tr><th>Symbol</th><th>Quantity</th></tr></thead>
+    <tbody></tbody>
+</table>
+<canvas id="holdingsChart" width="400" height="200"></canvas>
+<h2>Trade History</h2>
+<table id="history">
+    <thead><tr><th>Time</th><th>Type</th><th>Symbol</th><th>Amount</th><th>Price</th><th>Balance After</th></tr></thead>
+    <tbody></tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
